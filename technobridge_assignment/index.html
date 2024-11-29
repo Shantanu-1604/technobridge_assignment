@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Advanced Clinical Research Course</h1>
+        <p>Gain expertise in clinical research with our comprehensive program.</p>
+    </header>
+
+    <main>
+        <div class="content-wrapper">
+            <!-- Sticky Sidebar -->
+            <aside class="sidebar">
+                <h3>Course Navigation</h3>
+                <ul>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#curriculum">Curriculum</a></li>
+                    <li><a href="#details">Details</a></li>
+                    <li><a href="#faq">FAQs</a></li>
+                </ul>
+            </aside>
+
+            <!-- Main Content -->
+            <section class="content">
+                <!-- Tabs -->
+                <div class="tabs">
+                    <button class="tab-button active" data-tab="overview">Overview</button>
+                    <button class="tab-button" data-tab="curriculum">Curriculum</button>
+                    <button class="tab-button" data-tab="details">Details</button>
+                    <button class="tab-button" data-tab="faq">FAQs</button>
+                </div>
+
+                <div class="tab-content">
+                    <div id="overview" class="tab active">
+                        <img src="https://via.placeholder.com/800x400" alt="Course Image">
+                        <p>This course covers essential topics in clinical research, from regulatory affairs to practical applications in the field.</p>
+                    </div>
+
+                    <div id="curriculum" class="tab">
+                        <h3>Curriculum</h3>
+                        <ul>
+                            <li>Module 1: Introduction to Clinical Research</li>
+                            <li>Module 2: Ethics and Regulations</li>
+                            <li>Module 3: Data Analysis and Management</li>
+                        </ul>
+                        <h4>Advanced Topics</h4>
+                        <ol>
+                            <li>Clinical Trials Management</li>
+                            <li>Pharmacovigilance</li>
+                            <li>Regulatory Submissions</li>
+                        </ol>
+                    </div>
+
+                    <div id="details" class="tab">
+                        <h3>Course Details</h3>
+                        <table>
+                            <tr>
+                                <th>Feature</th>
+                                <th>Description</th>
+                            </tr>
+                            <tr>
+                                <td>Duration</td>
+                                <td>6 Months</td>
+                            </tr>
+                            <tr>
+                                <td>Mode</td>
+                                <td>Online</td>
+                            </tr>
+                            <tr>
+                                <td>Fees</td>
+                                <td>$1000</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div id="faq" class="tab">
+                        <h3>FAQs</h3>
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <button class="accordion-button">What is the course duration?</button>
+                                <div class="accordion-content">
+                                    <p>The course is 6 months long.</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <button class="accordion-button">Is this course available online?</button>
+                                <div class="accordion-content">
+                                    <p>Yes, the course is conducted online.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Sticky Call-to-Action Button -->
+    <div class="cta">
+        <button>Enroll Now</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
